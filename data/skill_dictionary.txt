@@ -1,0 +1,237 @@
+Adaptable
+Administrative
+Analytical
+Assembling Apparatus
+Artistic
+Creative
+Budgeting
+Business Storytelling
+Calculations
+Challenging Employees
+Classifying Records
+Coaching Individuals
+Collaboration
+Communication skills
+Compiling Statistics
+Conducting Meetings
+Conflict Resolution
+Confronting Others
+Construction
+Consultation
+Counseling
+Creating Ideas
+Creating Innovation
+Creating New Solutions
+Creating New Procedures
+Creative Thinking
+Critical Thinking
+Customer Service
+Decision Making
+Defining Performance Standards
+Demonstrations
+Detail Management
+Dispensing Information
+Displaying Ideas
+Editing
+Emotional Control
+Encouragement
+Entertainment
+Equipment Operation
+Evaluating
+Financial Report Auditing
+Fundraising
+Goal Setting
+Handling Complaints
+Human Resource management
+independent
+Innovation
+Interpersonal skill
+Inventing New Ideas
+Investigation
+Involvement
+Knowledge of Current Governmental Affairs
+Language Translation
+Leadership
+Learning
+Listening
+Locating Missing Documents
+Locating Missing Information
+Logical Thinking
+Maintaining High Levels of Activity
+Maintenance
+Management
+Managing Finances
+Measuring Boundaries
+Medical Assistance
+Meeting Deadlines
+Microsoft Office
+Monetary Collection
+Motivation
+Multitasking
+Negotiation
+Networking
+Nonverbal Communication
+Numerical Analysis
+Oration
+Organizational
+Organizational Management
+Organizational Tasks
+Overseeing Meetings
+Overseeing Operation
+Personal Interaction
+Plan Development
+Planning
+Prediction
+Preparing Written Documents
+Principal Concept Knowledge
+Prioritizing
+Problem Solving
+Promotions
+Proposal Writing
+Publications
+Public Relations
+Public Speaking
+Questioning Others
+Reading Volumes
+Reasoning
+Regulating Rules
+Rehabilitating Others
+Remembering Facts
+Reporting
+Report Writing
+Responsible
+Rational
+Scheduling
+Screening Calls
+Sketching
+Supervision
+Technical Support
+Team Building
+Teamwork
+Time Management
+Toleration
+Updating Files
+Adjusting
+Balancing
+Big Data
+Coding
+Compiling Statistics
+Customer Support
+Data Analytics
+Data Mining
+Database Design
+Database Management
+Debugging
+Design
+Documentation
+Drilling
+Driving
+Fabrication
+Manual Dexterity
+Modeling
+Modification
+Needs Analysis
+Network Architecture
+Network Security
+Networking
+New Technologies
+Operations
+Performance
+Planning
+Platforms
+Photography
+Problem Solving
+Product Reliability
+Proficiency
+Project Management
+Programming
+Quality Assurance
+Quality Control
+Quantitative Research
+Quantitative Reports
+Refinishing
+Remodeling
+Repairing
+Reporting
+Social Media Experience
+Solution Delivery
+Sorting
+Statistical Analysis
+Systems Analysis
+Technical Support
+Technical Writing
+Testing
+Training
+Troubleshooting
+Java
+PHP
+MySQL
+SQL
+Oracle
+c
+c++
+javascript
+jsp
+servlet
+xml
+Groovy
+firebase
+photoshop
+Intellij-idea
+Microsoft Office
+grails
+android
+Material design
+agile software development
+servlet
+MVC
+python
+html
+css
+js
+Node.js
+MSSQLServer
+MySQL
+linux
+nlp
+machine learning
+natural language processing
+google map api
+git
+bitbucket
+android developer
+core java
+advance java
+jdbc
+maven
+design pattern
+architect design
+spring framework
+spring mvc
+spring boot
+spring-boot
+hibernate
+ui design
+Json
+react
+delphi
+enterprise java
+j2ee
+basic java
+jsf
+java swing
+javaFx
+log4j
+jquery
+bootstrap
+foundation
+.net
+c#
+linq
+web api
+java server page
+jax-rs
+angular
+postgreSql
+junit
+asp
