@@ -3,7 +3,6 @@ HELP.md
 /build/
 !gradle/wrapper/gradle-wrapper.jar
 
-gradle
 .gradle
 .idea
 build
