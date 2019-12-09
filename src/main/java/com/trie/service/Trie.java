@@ -2,13 +2,14 @@ package com.trie.service;
 
 import com.trie.dto.TrieNode;
 
-import java.util.ArrayList;
-import java.util.List;
-import java.util.Map;
+import java.util.*;
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
 
 public class Trie implements ITrie {
     private TrieNode root;
     private List<String> wordList;
+    private Pattern pattern = Pattern.compile("^([\\W]{0,2})(\\w)([\\w\\S]*)");
 
     public Trie(List<String> wordList){
         this.root = new TrieNode("");
@@ -35,48 +36,101 @@ public class Trie implements ITrie {
         }
     }
 
-    public List<String> search(String word){
-        String[] charList = word.split("");
-        List<String> words = new ArrayList<>();
+    public List<String> search(String sentence){
+        List<String> charList = Arrays.asList(sentence.split(""));
+        Collections.reverse(charList);
+        List<String> matchedWords = new ArrayList<>();
 
-        TrieNode crawl = root;
-        Map<String, TrieNode> child = crawl.getChildren();
-        for(int i = 0; i<charList.length; i++){
-            if(child.containsKey(charList[i])){
-                crawl = child.get(charList[i]);
-                child = crawl.getChildren();
+        Stack<String> stack = new Stack<>();
+        stack.addAll(charList);
 
-                if(crawl.isEnd() && i == (charList.length-1))
-                    words.add(word.substring(0, i+1));
+        while(!stack.empty()){
+            TrieNode crawl = root;
+            List<String> word = new ArrayList<>();
+            int prevMatch = 0;
+
+            for(int i=1; !stack.empty(); i++){
+                String aChar = stack.pop();
+                Map<String, TrieNode> child = crawl.getChildren();
+                if (child.containsKey(aChar)){
+                    word.add(aChar);
+                    crawl = child.get(aChar);
+                    if(crawl.isEnd())
+                        prevMatch = i;
+                }
+                else break;
+            }
+            if(word.size() > 0){
+                word = word.subList(0, prevMatch);
+                String matchedWord = word.stream().reduce((s1, s2) -> s1+s2).orElse("");
+                if(!matchedWord.isEmpty() && !matchedWords.contains(matchedWord))
+                    matchedWords.add(matchedWord);
             }
         }
+        return matchedWords;
+    }
+
+    public List<String> autoComplete(String text){
+        List<String> words = new ArrayList<>();
+        if(!text.isEmpty()){
+            autoComplete(text, words);
+            autoComplete(text.toLowerCase(), words);
+            autoComplete(text.toUpperCase(), words);
+            autoComplete(convertIntoTitleCase(text), words);
+        }
+        words.sort(String::compareTo);
         return words;
     }
 
-    public List<String> autoComplete(String word){
+    /**
+     * @param text : String
+     *             - text to be converted into title Case
+     *             - for eg; java -> Java, JAVA -> Java
+     *                       .net -> .Net, .NET -> .Net
+     * */
+    private String convertIntoTitleCase(String text){
+        String[] words = text.split("[\\s]");
+        StringBuilder sb = new StringBuilder();
+        for(String aWord : words){
+            Matcher matcher = this.pattern.matcher(aWord);
+            if(matcher.matches()){
+                StringBuilder wo = new StringBuilder();
+
+                for(int i=1; i<=matcher.groupCount(); i++)
+                    wo.append(i==2?matcher.group(i).toUpperCase():matcher.group(i).toLowerCase());
+
+                sb.append(wo.toString()).append(" ");
+            }
+        }
+        sb.deleteCharAt(sb.lastIndexOf(" "));
+        return sb.toString();
+    }
+
+    /**
+     * @param word : String
+     *             - Prefix based on which the autocompletion is carried out.
+     * */
+    private void autoComplete(String word, List<String> words){
         String[] charList = word.split("");
-        List<String> words = new ArrayList<>();
         List<String> prefix = new ArrayList<>();
 
         TrieNode crawl = root;
         Map<String, TrieNode> child = crawl.getChildren();
-        boolean match = true;
+        boolean matches = true;
 
-        for(String aChar : charList){
-            if(child.containsKey(aChar)){
+        for (String aChar : charList) {
+            if (child.containsKey(aChar)) {
                 crawl = child.get(aChar);
                 child = crawl.getChildren();
                 prefix.add(aChar);
-            }
-            else{
-                match = false;
+            } else {
+                matches = false;
                 break;
             }
         }
-        if(match)
-            searchForAutocomplete(crawl, words, prefix);
 
-        return words;
+        if(matches)
+            searchForAutocomplete(crawl, words, prefix);
     }
 
     /**
@@ -101,10 +155,10 @@ public class Trie implements ITrie {
             prefix.add(child.getKey());
             searchForAutocomplete(child.getValue(), words, prefix);
         }
-
         if(node.isEnd()){
             String word = prefix.stream().reduce((s1, s2) -> s1 + s2).orElse("");
-            words.add(word);
+            if(!words.contains(word))
+                words.add(word);
         }
         prefix.remove(prefix.size()-1);
     }

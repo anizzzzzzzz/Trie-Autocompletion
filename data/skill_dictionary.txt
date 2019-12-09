@@ -1,237 +1,1444 @@
+.NET
+1010data
+4D
+4store
+A# .NET
+A-0 System
+ABAP
+ABC
+ABC ALGOL
+Able to listen
+ABSET
+ABSYS
+ACC
+Accept feedback
+Accumulo
+Ace DASL
+ACL2
+Actian PSQL
+Actian Vector
+ACT-III
+Action!
+ActionScript
+Active Server Pages
+ActorDB
+Ada
+Adabas
 Adaptable
-Administrative
+Adenine
+Adobe Acrobat
+Adobe Animate
+Adobe Dreamweaver
+Adobe Illustrator
+Adobe PageMaker
+Adobe Photoshop
+Aerospike
+Agavi
+Agda
+AgensGraph
+Agilent VEE
+Agora
+AIDA/Web
+AIMMS
+Ajax
+AlaSQL
+Aldor
+Alef
+ALF
+Algebraix
+ALGOL 58
+ALGOL 60
+ALGOL 68
+ALGOL W
+Algolia
+Alibaba Cloud HybridDB
+Alibaba Cloud MaxCompute
+Alibaba Cloud Table Store
+Allegro Common Lisp
+AllegroGraph
+Alma-0
+Altibase
+Amazon Aurora
+Amazon CloudSearch
+Amazon DynamoDB
+Amazon Neptune
+Amazon Redshift
+Amazon SimpleDB
+AmbientTalk
+Amiga E
+AMOS
+AMPL
 Analytical
-Assembling Apparatus
-Artistic
-Creative
-Budgeting
-Business Storytelling
-Calculations
-Challenging Employees
-Classifying Records
-Coaching Individuals
-Collaboration
-Communication skills
-Compiling Statistics
-Conducting Meetings
-Conflict Resolution
-Confronting Others
-Construction
-Consultation
-Counseling
-Creating Ideas
-Creating Innovation
-Creating New Solutions
-Creating New Procedures
-Creative Thinking
-Critical Thinking
-Customer Service
-Decision Making
-Defining Performance Standards
-Demonstrations
-Detail Management
-Dispensing Information
-Displaying Ideas
-Editing
-Emotional Control
-Encouragement
-Entertainment
-Equipment Operation
-Evaluating
-Financial Report Auditing
-Fundraising
-Goal Setting
-Handling Complaints
-Human Resource management
-independent
-Innovation
-Interpersonal skill
-Inventing New Ideas
-Investigation
-Involvement
-Knowledge of Current Governmental Affairs
-Language Translation
-Leadership
-Learning
-Listening
-Locating Missing Documents
-Locating Missing Information
-Logical Thinking
-Maintaining High Levels of Activity
-Maintenance
-Management
-Managing Finances
-Measuring Boundaries
-Medical Assistance
-Meeting Deadlines
-Microsoft Office
-Monetary Collection
-Motivation
-Multitasking
-Negotiation
-Networking
-Nonverbal Communication
-Numerical Analysis
-Oration
-Organizational
-Organizational Management
-Organizational Tasks
-Overseeing Meetings
-Overseeing Operation
-Personal Interaction
-Plan Development
-Planning
-Prediction
-Preparing Written Documents
-Principal Concept Knowledge
-Prioritizing
-Problem Solving
-Promotions
-Proposal Writing
-Publications
-Public Relations
-Public Speaking
-Questioning Others
-Reading Volumes
-Reasoning
-Regulating Rules
-Rehabilitating Others
-Remembering Facts
-Reporting
-Report Writing
-Responsible
-Rational
-Scheduling
-Screening Calls
-Sketching
-Supervision
-Technical Support
-Team Building
-Teamwork
-Time Management
-Toleration
-Updating Files
-Adjusting
-Balancing
+Analytical Tools
+Analytics
+Android
+AngelScript
+Angular
+Angular JS
+Angular.JS
+AngularJS
+Anjuta
+Apache Click
+Apache Drill
+Apache OFBiz
+Apache Shale
+Apache Sling
+Apache Struts
+Apache Struts 2
+Apache Struts2
+Apache Tapestry
+Apache Turbine
+Apache Wicket
+APL
+AppEngine
+AppFuse
+AppleScript
+Application Express
+APT
+Aptana Studio
+ArangoDB
+Arch Linux
+ARexx
+Argus
+Artistic sense
+ASP.NET
+ASP.NET Dynamic Data
+AspectJ
+Assembly language
+Assertiveness
+Ateji PX
+Atos Standard Common Repository
+ATS
+Attentive
+Autocoder
+AutoHotkey
+AutoIt
+AutoLISP / Visual LISP
+Averest
+AWK
+AWS
+Axibase
+Axum
+Babbage
+Backbone.js
+Bangdb
+Base One Foundation Component Library
+BaseX
+Bash
+Batch (Windows/Dos)
+BCPL
+BeanShell
+BergDB
+Bertrand
+BETA
 Big Data
-Coding
-Compiling Statistics
-Customer Support
+BigchainDB
+BigObject
+BlackBox Component Builder
+Blazegraph
+BlueBream
+Blueflood
+BlueJ
+Boa Constructor
+BoltDB
+Boo
+Bootstrap
+Bottle
+Bourne shell
+BPEL
+Bravo Editor
+BrightScript
+BrightstarDB
+Brutos Framework
+Brytlyt
+Business Basic
+Business ethics
+C--
+C Shell (csh)
+C#
+C/AL
+C++
+C++Builder
+CÃ©u
+CachÃ© ObjectScript
+Cachelot.io
+CakePHP
+CakePHP 3
+Calcpad
+Camelcade
+Caml
+Camping
+Cassandra
+Catalyst
+Caveman2
+Cayenne
+CDuce
+Cecil
+Cesil
+Ceylon
+CFEngine
+CFWheels
+Cg
+Ch
+CherryPy
+CHIP-8
+chomski
+ChucK
+CIL
+Cilk
+Citrine
+Citus
+CL
+Claire
+Clarion
+ClickHouse
+Clipper
+CLIST
+Clojure
+Cloudant
+CloudKit
+CLU
+Clustrix
+CMS EXEC
+CMS-2
+COBOL
+CobolScript
+Cobra
+CockroachDB
+Codeanywhere
+CodeIgniter
+CodeLite
+Codelobster
+CodernityDB
+CoffeeScript
+ColdBox Platform
+ColdFusion
+ColdSpring
+Collaborative
+CollEntRes
+COMAL
+Combined Programming Language
+Comdb2
+COMIT
+Common Intermediate Language
+Common Lisp
+COMPASS
+Competitive
+Component Pascal
+Component-based Scalable Logical Architecture
+COMTRAN
+Confident
+Conflict management
+Conflict resolution
+Constraint Handling Rules
+Constructing Predictive Models
+Coolors
+Cooperative
+Coq
+Coral 66
+CortexDB
+CorVision
+Couchbase
+CouchDB
+Courteous
+COWSEL
+CPL
+CppCMS
+CrateDB
+Creating Algorithms
+Creating Controls to Assure Accuracy of Data
+Creativity
+Critical observer
+Critical thinking
+Cryptol
+Csound
+CSP
+CSS
+CSS3
+c-treeACE
+CubicWeb
+Cubrid
+CUDA
+Custom Support
+Customer service
+Cybil
+Cython
+D3
+D3.js
+DaggerDB
+Dancer
+DASL
+Data Analysis
 Data Analytics
+Data Manipulation
 Data Mining
-Database Design
-Database Management
-Debugging
-Design
-Documentation
-Drilling
-Driving
-Fabrication
-Manual Dexterity
-Modeling
-Modification
-Needs Analysis
-Network Architecture
-Network Security
-Networking
-New Technologies
-Operations
-Performance
-Planning
-Platforms
-Photography
-Problem Solving
-Product Reliability
-Proficiency
-Project Management
-Programming
-Quality Assurance
-Quality Control
-Quantitative Research
-Quantitative Reports
-Refinishing
-Remodeling
-Repairing
-Reporting
-Social Media Experience
-Solution Delivery
-Sorting
-Statistical Analysis
-Systems Analysis
-Technical Support
-Technical Writing
-Testing
-Training
-Troubleshooting
-Java
-PHP
-MySQL
-SQL
-Oracle
-c
-c++
-javascript
-jsp
-servlet
-xml
+Data Science Tools
+Data Tools
+Data Visualizations
+Data Wrangling
+Datacom/DB
+DataEase
+DataFlex
+Datalog
+Datameer
+Datastax Enterprise
+DATATRIEVE
+Dataupia
+Datomic
+DAX
+DB2
+Db4o
+dBASE
+DBISAM
+DBSight
+DCL
+Deal making
+Deal with difficult situations
+Deal with office politics
+Debian GNU/Linux
+Decision making
+Decision Trees
+Decoda
+Dedicated
+Deesel
+Delegation
+Delphi
+DensoDB
+Dependable
+Derby
+Design sense
+Desire to learn
+Dev-C++
+Dev-Pascal
+Dframe Framework
+Dgraph
+DIBOL
+D-IDE
+DinkC
+Disability awareness
+Dispute resolution
+Diversity awareness
+Django
+Djondb
+DlangIDE
+Dolphin Smalltalk
+Dot Net
+Draco
+DRAKON
+Drawing Consensus
+Dream weaver
+Dreamweaver
+Dream-weaver
+DrJava
+DrRacket
+Druid
+Drupal
+Dydra
+Dylan
+DYNAMO
+Easy PL/I
+Easy Programming Language
+EASYTRIEVE PLUS
+ECL
+Eclipse
+Eclipse CDT
+Eclipse Che
+Eclipse DLTK Ruby Plugin
+Eclipse EPIC
+Eclipse JDT
+Eclipse LDT
+Eclipse PDT
+Eclipse RAP
+EclipseFP Plugin
+ECMAScript
+Edinburgh IMP
+EGL
+Ehcache
+EiffelStudio
+EJDB
+ELAN
+Elasticsearch
+ElevateDB
+Elixir
+Elliptics
+Elm
+Eloquera
+Emacs Lisp
+Ember js
+Ember.js
+EmberJS
+Emotional intelligence
+Empathetic
+Empress
+Energetic
+EnterpriseDB
+Enthusiastic
+Entice Designer
+Epigram
+EPL
+ericFlash Builder
+Erlang
+es
+Escher
+EsgynDB
+ESPOL
+Establish interpersonal relationships
+Esterel
+Etoys
+Euclid
+Euler
+EusLisp Robot Programming Language
+Evaluating New Analytical Methodologies
+Event Store
+EXASOL
+EXEC 2
+Executable UML
+eXist-db
+Exorbyte
+Experience dealing with difficult personalities
+Express js
+Express.js
+eXtremeDB
+F*
+Facilitating
+Falcon
+Fantom
+Fat-Free
+Fat-Free Framework
+FaunaDB
+FAUST
+FFP
+FileMaker
+Firebase Realtime Database
+Firebird
+FjÃ¶lnir
+FL
+Flare
+FlashDevelop
+Flask
+Flat UI
+Flat UI Colors
+FleetDB
+Flex
+Flexible
+Flinto
+FlockDB
+FlooP
+FLOW-MATIC
+FOIL
+Follow direction
+FORMAC
+FormEngine
+Forth
+Fortran
+Fortress
+FoxBase
+FoxPro
+FP
+Framer
+Franz Lisp
+Free Pascal
+FreeBASIC
+Frege
+Friendly
+FrontBase
+F-Script
+FuelPHP
+Fusebox
+GÃ¶del
+Gambas
+Game Maker Language
+GameMonkey Script
+GAMS
+GAP
+G-code
+GDL
+GDScript
+Geany
+GemStone/S
+Gentoo Linux
+Geode
+Giraph
+Give clear feedback
+GJ
+GlobalsDB
+GLSL
+GM
+GNAT Programming Studio
+GNU E
+Go
+Go!
+Golo
+GOM
+Good Old Mad
+Google App Engine
+Google Apps Script
+Google BigQuery
+Google Chart
+Google Cloud Bigtable
+Google Cloud Datastore
+Google Cloud Firestore
+Google Cloud Spanner
+Google Search Appliance
+Google Visualization API
+Google Web Toolkit
+Gosu
+GOTRAN
+GPL
+GPSS
+Grails
+GRAKN.AI
+Graph Engine
+GraphBase
+GraphDB
+Graphite
+GraphTalk
+Greenfoot
+Greenplum
+GridDB
+GridGain
+Grok
 Groovy
-firebase
-photoshop
-Intellij-idea
+GT.M
+Gyroscope
+H2
+Hadoop
+HAGGIS
+HAL/S
+Halide
+Hamilton C shell
+Hamlets
+Happstack
+Harbour
+HarperDB
+Hartmann pipelines
+Haskell
+Hawkular Metrics
+HAWQ
+Haxe
+Hazelcast
+HBase
+Hermes
+Hexa
+HFSQL
+HGraphDB
+Hibari
+Hibernate
+High energy
+High Level Assembly
+Highly organized
+Hive
+HLSL
+Honest
+Hopscotch
+HTML
+HTML5
+HTML-Kit
+HyperGraphDB
+HyperLevelDB
+HyperSQL
+HyperTalk
+Iâ€™m Creator
+IBM Basic assembly language
+IBM BASICA
+IBM dashDB
+IBM HAScript
+IBM Informix-4GL
+IBM RPG
+iBoxDB
+Iconfinder
+IDL
+IDLEIntelliJ
+IDMS
+Illustrator
+Impala
+IMS
+Independent
+Indica
+InfiniDB
+Infinispan
+InfiniteGraph
+InfinityDB
+Influential
+InfluxDB
+Infobright
+InfoGrid
+Information Retrieval
+Information Retrieval Data Sets
+Informix
+Ingres
+Innovator
+Inspiring
+IntelliJ IDEA
+Interbase
+Intercultural competence
+InterpersonalÂ skills
+Interpreting Data
+Invision
+Io
+IRONdb
+ItsNat
+ITTIA
+J#
+J++
+Jackrabbit
+Jade
+Jaguar
+Jamroom
+Janus
+JanusGraph
+JasDB
+JASS
+Java
+JavaFX Script
+JavaScript
+JavaServer Faces
+jBASE
+JBoss Seam
+JBuilder
+JCL
+JCreator
+JDeveloper
+JEAN
+JEE
+Jena
+JetBrains CLion
+JethroData
+jGRASP
+Join Java
+Joomla
+JOSS
+Joule
+jq
+JQuery
+JScript
+JScript .NET
+JSP
+Jspx-bay
+JustOneDB
+JVx
+JVx WebUI
+JWt
+Jython
+KairosDB
+Kajona
+Kaleidoscope
+Karel
+Karel++
+K-DB
+Kdb+
+KDevelop
+KEE
+Kepler
+KIF
+Kinetica
+Kixtart
+Klerer-May System
+KnockoutJS
+Kodu
+Kognitio
+Kohana
+Kojo
+Komodo IDE
+Komodo IDE / Edit
+Kotlin
+KRC
+KRL
+KRYPTON
+ksh
+Kubuntu
+KUKA
+Kuler
+Kyoto Cabinet
+Kyoto Tycoon
+LabVIEW
+LabWindows/CVI
+LANSA
+Laravel
+LaTeX
+Lazarus
+LC-3
+LccWin32
+Leadership
+LeanXcale
+Leda
+LedisDB
+Legoscript
+LevelDB
+Li3
+Lift
+LIL
+LilyPond
+Limbo
+Limnor
+LINC
+Linear Algebra
+Lingo
+Linter
+Linux
+Linux for PlayStation 2
+LIS
+LISA
+Lisaac
+Lisp
+LispWorks
+Listening
+Lite-C
+LiteDB
+Lithe
+Little b
+LiveCode
+LiveScript
+LLL
+Logical thinking
+Logtalk
+LokiJS
+LotusScript
+Lovefield
+LPC
+LSE
+LSL
+Lua
+LucidDB
+LYaPAS
+Lynx
+M
+M#
+M2000
+M2001
+M4
+Machbase
+Mach-II
+Machine code
+Machine Learning Models
+Machine Learning Techniques
+MAD/I
+Magik
+Make deadlines
+MammothDB
+Management
+Managing difficult conversations
+Managing remote teams
+Managing virtual teams
+Mandriva Linux
+Manticore Search
+MapD
+MapDB
+MAPPER
+MapR-DB
+Maria
+MariaDB
+MARK-IV
+MarkLogic
+MASM Microsoft Assembly x86
+Mason
+Material Design Colors
+Mathcad
+Mathematics
+MATH-MATIC
+Matisse
+MATLAB
+Maude system
+MaxDB
+Maxima
+MaxScript
+Maypole
+MDL
+Meeting management
+Memcached
+MemSQL
+Mentoring
+Merb
+Mesa
+Metafont
+MetaQuotes Language
+Meteor
+MHEG-5
+Microcode
+MicroScript
+Microsoft Access
+Microsoft Azure Cosmos DB
+Microsoft Azure Search
+Microsoft Azure SQL Data Warehouse
+Microsoft Azure SQL Database
+Microsoft Azure Table Storage
+Microsoft Excel
 Microsoft Office
-grails
-android
-Material design
-agile software development
-servlet
+Microsoft PowerPoint
+Microsoft Small Basic
+Microsoft SQL Server
+Microsoft Visual Studio
+Microsoft Word
+MIDletPascal
+MIIS
+Mimer SQL
+MIMIC
+Mining Social Media Data
+Mirah
+Miranda
+MIVA Script
+ML
+Mnesia
+Model 204
+Model-Glue
+Modelica
+Modeling Data
+Modeling Tools
+ModeShape
+Modula
+Modula-2
+Modula-3
+Mohol
+Mojolicious
+MonetDB
+Mongo
+MongoDB
+Monkey Studio
+MonoDevelop
+MonoRail
+Morfik
+Mortran
+Motivated
+Motivating
+MPD
+MQL4
+MQL5
+MrEd GUI builder
+MS Office
+MS SQL SERVER
+MSEide
+MSL
+mSQL
+Mulgara
+Multitasking
+Multivariable Calculus
+MUMPS
+MuPAD
+Mutan
 MVC
-python
-html
-css
-js
-Node.js
-MSSQLServer
+MyEclipse
 MySQL
-linux
-nlp
-machine learning
-natural language processing
-google map api
-git
-bitbucket
-android developer
-core java
-advance java
-jdbc
-maven
-design pattern
-architect design
-spring framework
-spring mvc
-spring boot
-spring-boot
-hibernate
-ui design
-Json
-react
-delphi
-enterprise java
-j2ee
-basic java
-jsf
-java swing
-javaFx
-log4j
-jquery
-bootstrap
-foundation
-.net
-c#
-linq
-web api
-java server page
-jax-rs
-angular
-postgreSql
-junit
-asp
+Nagare
+Nanolat
+Napier88
+NASM
+NCache
+Negotiation
+Neko
+Nemerle
+Neo4j
+nesC
+NESL
+Net.Data
+NetBeans
+NetBeans C/C++ pack
+Netezza
+NetLogo
+NetRexx
+Nette Framework
+Networking
+NEventStore
+NewLISP
+NEWP
+Newspeak
+NewtonScript
+Newts
+NexusDB
+Nial
+Nim
+Ninja-IDE
+Node js
+Node.js
+Nodeclipse
+Nodejs
+NonStop SQL
+Nonverbal communication
+Northgate Reality
+NosDB
+Not eXactly C
+Not Quite C
+Noun Project
+NPL
+NSIS
+Nu
+NuoDB
+NuSphere PhpED
+NWScript
+NXT-G
+o XML
+Oak
+Oberon
+OBJ2
+Object Lisp
+Object Pascal
+Object REXX
+ObjectDB
+Objective-C
+Objective-J
+Objectivity/DB
+ObjectLOGO
+ObjectStore
+Obliq
+OCaml
+occam
+occam-Ï€
+Ocsigen
+OmniMark
+Onyx
+Opa
+Opal
+OpenACS
+OpenBase
+OpenCL
+OpenEdge
+OpenEdge ABL
+OpenInsight
+OpenLaszlo
+OpenQM
+OpenRasta
+OpenTSDB
+OpenUI5
+OpenVera
+OpenWatcom
+OpenXava
+OPL
+OPS5
+OptimJ
+Oracle
+Oracle ADF
+Oracle Berkeley DB
+Oracle Coherence
+Oracle Essbase
+Oracle JDeveloper
+Oracle NoSQL
+Oracle Rdb
+Oracle Solaris Studio
+Orc
+ORCA/Modula-2
+Organization
+Oriel
+OrientDB
+Origami
+OrigoDB
+Orwell
+Oxygene
+Oz
+Pâ€²â€²
+Padre
+Padrino
+ParaSail
+PARI/GP
+Pascal
+Patient
+PBASIC
+PCASTL
+PCF
+PCLinuxOS
+PDL
+PEARL
+Pelles C
+PeopleCode
+Percona Server for MongoDB
+Percona Server for MySQL
+Perl
+Perl 6
+Perseverant
+Persistent
+Perst
+Persuasion
+Persuasive
+Phalcon
+Pharo
+Philasmicos Entwickler Studio
+Photoshop
+Photran
+PHP
+PHP Tools for Visual Studio
+PHPEclipse
+PhpED Professional
+PHPEdit
+PhpStorm
+Pico
+Picolisp
+Pict
+PIDA
+PIKT
+PipelineDB
+PL/0
+PL/B
+PL/C
+PL/I
+PL/M
+PL/P
+PL/SQL
+PL-11
+PL360
+PLANC
+PlankalkÃ¼l
+Planning
+PlatoPocketStudio
+Play
+PLEX
+PLEXIL
+Plus
+Poco
+Polymer
+Pop PHP
+POP-11
+POP-2
+PortablE
+Poseidon IDE
+Postgre
+Postgres SQL
+PostgreSQL
+Postgres-XL
+PostScript
+PouchDB
+PowerBuilder
+Powerflasher FDT
+Powerhouse
+PowerShell
+PPL
+PRADO
+prblem solver
+Presentation
+PrestoDB
+Pro*C
+Problem solving
+Processing.js
+Producing Data Visualizations
+Prograph
+PROIV
+Project management
+Project Voldemort
+Prolog
+PROMAL
+Promela
+Prometheus
+Proper business etiquette
+PROSE modeling language
+PROTEL
+ProvideX
+Public speaking
+Punctual
+Pure Data
+PureBasic
+PureMVC
+PyCharm
+PyDev
+Pyjs
+Pylons
+Pyramid
+PyScripter
+Python
+Python Tools for Visual Studio
+PythonAnywhere
+Q
+Q#
+Qalb
+qooxdoo
+QPL
+Qt Creator
+QtScript
+QuakeC
+Quanta Plus
+Quasardb
+quick learner
+R
+R BASE
+R++
+Racket
+RadASM
+RadPHP
+Raima Database Manager
+Rainstor
+Raphael.js
+Rapira
+RaptorDB
+Rasdaman
+Ratfiv
+Ratfor
+Rational Application Developer
+Rational Software Architect
+RavenDB
+RDF4J
+React
+React js
+React.js
+Reactjs
+Read body language
+Realm
+Reason
+REBOL
+Red Brick
+Red Hat Linux
+Redcode
+Redhat Linux
+Redis
+Redland
+RedStore
+REFAL
+Reia
+Reliable
+Research
+Resilient
+Resin Cache
+Resolving issues
+Resourceful
+Respectable
+Respectful
+Results oriented
+RethinkDB
+REXX
+Riak KV
+Riak TS
+RiderBasic4android
+RIFE
+Risk Modeling
+Rlab
+RocksDB
+ROOP
+RPG
+RPL
+RRDtool
+RSL
+RStudio
+RTL/2
+Ruby
+Ruby on Rails
+RubyMine (IntelliJ IDEA)
+RuneScript
+S/SL
+S2
+S3
+Sabayon Linux
+SabreTalk
+SA-C
+Sadas Engine
+SAIL
+SALSA
+SAM76
+SAP Adaptive Server
+SAP Advantage Database Server
+SAP HANA
+SAP IQ
+SAP SQL Anywhere
+SAS
+SASL
+SASM
+Sather
+Sawzall
+SBL
+Scala
+Scalaris
+Scalatra
+ScaleArc
+ScaleOut StateServer
+Scheduling
+SciDB
+Scilab
+Script.NET
+ScyllaDB
+SearchBlox
+searchxml
+Seaside
+Sed
+Sedna
+Seed7
+Self directed
+Self monitoring
+Self supervising
+Self-awareness
+Self-directed
+Self-monitoring
+Self-supervising
+Selling skills
+Sense of humor
+SenseiDB
+SenseTalk
+SequenceL
+Sequoiadb
+Servoy
+SETL
+SharpDevelop
+Siaqodb
+SIGNAL
+Silex
+SilverStripe
+SiMPLE
+Simply Fortran
+SIMPOL
+SIMSCRIPT
+Simula
+Simulink
+Sinatra
+SiriDB
+SISAL
+SisoDb
+SiteWhere
+Skala Preview
+Sketch 3
+Slackware
+S-Lang
+SlickEdit
+SLIP
+SmallSQL
+Smart Mobile Studio
+Smart.Framework
+SML
+Snap
+Snap!
+SnappyData
+SNOBOL
+Snowflake
+Social skills
+SOL
+solidDB
+Solr
+SOPHAEROS
+SourceLair
+SP/k
+Spark
+Spark SQL
+SparkleDB
+Sparksee
+Speedcode
+Sphinx
+SPL/3000
+Splice Machine
+Splunk
+S-PLUS
+Spring
+Spring Boot
+Spring Tool Suite
+Spring Web MVC
+SproutCore
+SPS
+Spyder
+SQL
+SQL Server
+SQL.JS
+SQLBase
+SQLite
+SQR
+SQream DB
+Sqrrl
+Squeak
+Stackless Python
+Stani's Python Editor
+Stata
+Stateflow
+Statistical Learning Models
+Statistical Modeling
+Statistics
+Stay on task
+Storytelling
+Strabon
+Strand
+Strategic planning
+Stripes
+Struts
+Struts 2
+Struts2
+STS
+STSdb
+Successful coach
+SuperCollider
+SuperTalk
+Supervising
+SUSE Linux
+SwayDB
+Symfony
+Symfony 2
+SYMPL
+SystemVerilog
+T
+Tableau
+TACL
+TACPOL
+TACTIC
+TADS
+Tajo
+Takes
+TAL
+Talent managementÂ
+Tarantool
+TayzGrid
+Tcl
+Team building
+Team player
+TECO
+TELCOMP
+TempoIQ
+Teradata
+Teradata Aster
+TerarkDB
+Testing Hypotheses
+TeX
+Think outside the box
+Thonny
+Tibero
+TiDB
+TIE
+TigerGraph
+Timber
+Time management
+TimescaleDB
+TimesTen
+TinkerGraph
+TMG
+Tntnet
+Toi
+Tokyo Cabinet
+Tokyo Tyrant
+Tolerant of change and uncertainty
+Tom
+TomP2P
+Topspeed
+Tornado
+ToroDB
+TPU
+Trac
+Trafodion
+Trainable
+Transbase
+TransLattice
+Troubleshooting
+T-SQL
+TTCN
+TTM
+TurboGears
+Turing
+TUTOR
+TwistPHP
+TXL
+TypeScript
+TYPO3
+TYPO3 Flow
+Ubercode
+Ubuntu
+UCSD Pascal
+UI / UX
+UI/UX
+Ultimate++ TheIDE
+Umple
+Unicon
+UniData,UniVerse
+Uniface
+Unified.js
+UNITY
+Unix shell
+UnrealScript
+Upscaledb
+Vaadin
+Vala
+Valentina Server
+Value education
+Vanilla JS
+Vanilla.JS
+VanillaJS
+VelocityDB
+Verbal communication
+Verilog
+Versant FastObjects
+Versant Object Database
+Vertica
+vibe.d
+Viper
+Virtuoso
+VistaDB
+Visual Basic
+Visual Basic .NET
+Visual communication
+Visual DataFlex
+Visual DialogScript
+Visual Fortran
+Visual FoxPro
+Visual J#
+Visual J++
+Visual LISP
+Visual Objects
+Visual Prolog
+Visual Studio
+Visual Studio Code
+VisualWorks
+VM Player
+VoltDB
+VRaptor
+VSXu
+Vue.js
+vvvv
+Wakanda
+WakandaDB
+Warp 10
+WATFIV, WATFOR
+Wavemaker
+web2py
+WebDNA
+webMethods Tamino
+WebObjects
+WebQL
+WebScaleSQL
+WebSphere eXtreme Scale
+WebStorm
+Webware
+WebWork
+Whiley
+WhiteDB
+Willing to learn
+Winbatch
+Windows
+WiredTiger
+Wolfram Language
+Wordpress
+Work well under pressure
+Work-life balance
+Writing reports and proposals
+Writing skills
+Wt
+Wyvern
+X++
+X10
+Xamarin Studio
+XAP
+Xapian
+XBL
+XC
+Xcode
+xHarbour
+XL
+Xojo
+XOTcl
+XPL
+XPL0
+XQuery
+XSharp
+XSLT
+Xtend
+XtremeData
+Yaacomo
+YAML
+Yanza
+Yesod
+Yii
+Yoix
+Yorick
+YQL
+Z notation
+Z++
+Zap
+Zend Framework
+Zend Framework 2
+Zend Studio
+Zeno
+ZeroBrane Studio
+ZetaLisp
+Zeus IDE
+ZK
+ZODB
+Zope
+Zope 2
+ZOPL
+ZPL
+Zsh
+ztemplates
