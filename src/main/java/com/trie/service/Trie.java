@@ -73,10 +73,17 @@ public class Trie implements ITrie {
     public List<String> autoComplete(String text){
         List<String> words = new ArrayList<>();
         if(!text.isEmpty()){
+            String toLowerCase = text.toLowerCase();
+            String toUpperCase = text.toUpperCase();
+            String toTitleCase = convertIntoTitleCase(text);
+
             autoComplete(text, words);
-            autoComplete(text.toLowerCase(), words);
-            autoComplete(text.toUpperCase(), words);
-            autoComplete(convertIntoTitleCase(text), words);
+            if(!text.equals(toLowerCase))
+                autoComplete(text.toLowerCase(), words);
+            if(!text.equals(toUpperCase))
+                autoComplete(text.toUpperCase(), words);
+            if(!text.equals(toTitleCase))
+                autoComplete(convertIntoTitleCase(text), words);
         }
         words.sort(String::compareTo);
         return words;
