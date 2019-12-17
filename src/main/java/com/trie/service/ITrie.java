@@ -1,6 +1,6 @@
 package com.trie.service;
 
-import java.util.List;
+import java.util.Set;
 
 public interface ITrie {
     /**
@@ -16,7 +16,7 @@ public interface ITrie {
      * @return : List<String>
      *     - List of words
      * */
-    List<String> search(String sentence);
+    Set<String> search(String sentence);
 
     /**
      * @param text : String
@@ -27,5 +27,5 @@ public interface ITrie {
      * @return : List<String>
      *     - List of words
      * */
-    List<String> autoComplete(String text);
+    Set<String> autoComplete(String text);
 }

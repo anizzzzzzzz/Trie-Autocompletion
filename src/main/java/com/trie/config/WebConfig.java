@@ -1,7 +1,10 @@
 package com.trie.config;
 
-import com.trie.service.Trie;
+import com.trie.service.ITrie;
+import com.trie.service.impl.TrieFirst;
+import com.trie.service.impl.TrieSecond;
 import org.apache.commons.io.IOUtils;
+import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 
@@ -14,9 +17,18 @@ import java.util.stream.Collectors;
 
 @Configuration
 public class WebConfig {
+    @Qualifier("trieFirst")
     @Bean
-    public Trie trie() {
-        Trie trie = new Trie(readLines(System.getProperty("user.dir") + "/data/skill_dictionary.txt"));
+    public ITrie trieFirst() {
+        ITrie trie = new TrieFirst(readLines(System.getProperty("user.dir") + "/data/skill_dictionary.txt"));
+        trie.init();
+        return trie;
+    }
+
+    @Qualifier("trieSecond")
+    @Bean
+    public ITrie trieSecond(){
+        ITrie trie = new TrieSecond(readLines(System.getProperty("user.dir") + "/data/skill_dictionary.txt"));
         trie.init();
         return trie;
     }
@@ -28,9 +40,5 @@ public class WebConfig {
         } catch (IOException ex) {
             return Collections.emptyList();
         }
-    }
-
-    public List<String> skills() {
-        return readLines(System.getProperty("user.dir") + "/data/skill_dictionary.txt");
     }
 }

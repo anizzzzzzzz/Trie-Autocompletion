@@ -9,4 +9,14 @@ public class TrieController {
     public String index(){
         return "index";
     }
+
+    @GetMapping("/trie-one")
+    public String trieFirst(){
+        return "trie-first";
+    }
+
+    @GetMapping("/trie-two")
+    public String trieSecond(){
+        return "trie-second";
+    }
 }

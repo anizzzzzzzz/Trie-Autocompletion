@@ -1,17 +1,18 @@
-package com.trie.service;
+package com.trie.service.impl;
 
 import com.trie.dto.TrieNode;
+import com.trie.service.ITrie;
 
 import java.util.*;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
-public class Trie implements ITrie {
+public class TrieFirst implements ITrie {
     private TrieNode root;
     private List<String> wordList;
     private Pattern pattern = Pattern.compile("^([\\W]{0,2})(\\w)([\\w\\S]*)");
 
-    public Trie(List<String> wordList){
+    public TrieFirst(List<String> wordList){
         this.root = new TrieNode("");
 
         wordList.sort(String::compareTo);
@@ -36,10 +37,10 @@ public class Trie implements ITrie {
         }
     }
 
-    public List<String> search(String sentence){
+    public Set<String> search(String sentence){
         List<String> charList = Arrays.asList(sentence.split(""));
         Collections.reverse(charList);
-        List<String> matchedWords = new ArrayList<>();
+        Set<String> matchedWords = new HashSet<>();
 
         Stack<String> stack = new Stack<>();
         stack.addAll(charList);
@@ -63,14 +64,14 @@ public class Trie implements ITrie {
             if(word.size() > 0){
                 word = word.subList(0, prevMatch);
                 String matchedWord = word.stream().reduce((s1, s2) -> s1+s2).orElse("");
-                if(!matchedWord.isEmpty() && !matchedWords.contains(matchedWord))
+                if(!matchedWord.isEmpty())
                     matchedWords.add(matchedWord);
             }
         }
         return matchedWords;
     }
 
-    public List<String> autoComplete(String text){
+    public Set<String> autoComplete(String text){
         List<String> words = new ArrayList<>();
         if(!text.isEmpty()){
             String toLowerCase = text.toLowerCase();
@@ -86,7 +87,7 @@ public class Trie implements ITrie {
                 autoComplete(convertIntoTitleCase(text), words);
         }
         words.sort(String::compareTo);
-        return words;
+        return new HashSet<>(words);
     }
 
     /**

@@ -3,16 +3,23 @@ body{
     margin: auto;
 }
 
+.index-header{
+    text-align: center;
+    margin: 25px auto;
+}
+
+.trie-list-item{
+    color: dodgerblue !important;
+    text-align: center;
+    margin: 10px 0;
+}
+
 .text-input{
     width: 50%;
     margin: 20px auto;
 }
 
-.suggestion-list{
-    display: flex;
-    flex-direction: column;
-    align-content: space-evenly;
-    flex-wrap: wrap;
-    height: 400px;
-
+.suggestion-table td{
+    width: 1%;
+    white-space: nowrap;
 }

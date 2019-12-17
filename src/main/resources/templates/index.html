@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" xmlns:th="http://www.w3.org/1999/xhtml">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <title>Index</title>
@@ -9,19 +9,14 @@
 </head>
 <body>
     <div class="container-fluid">
-
-        <div class="form-group text-input">
-            <input type="text" class="form-control" id="text-field" oninput="autoComplete()"
-                   placeholder="Type something">
-        </div>
-
-        <div class="suggestion-div">
-            <ul class="suggestion-list" id="suggestion-list"></ul>
+        <h2 class="index-header">Trie Demo Application</h2>
+        <div class="list-group">
+            <a href="/trie-one" class="list-group-item trie-list-item">Trie One [Simple Trie]</a>
+            <a href="/trie-two" class="list-group-item trie-list-item">Trie Two [Advance Trie]</a>
         </div>
     </div>
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
-    <script src="js/autocomplete.js"></script>
 </body>
 </html>
