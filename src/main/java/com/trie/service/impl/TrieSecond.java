@@ -3,10 +3,7 @@ package com.trie.service.impl;
 import com.trie.dto.TrieNode;
 import com.trie.service.ITrie;
 
-import java.util.Collections;
-import java.util.List;
-import java.util.Map;
-import java.util.Set;
+import java.util.*;
 
 public class TrieSecond implements ITrie {
     public TrieNode root;
@@ -55,6 +52,7 @@ public class TrieSecond implements ITrie {
 
     @Override
     public Set<String> autoComplete(String text) {
+        Set<String> words = new HashSet<>();
         String[] charList = text.split("");
         TrieNode crawl = root;
         boolean contains = true;
@@ -70,7 +68,9 @@ public class TrieSecond implements ITrie {
             }
         }
         if(contains)
-            return crawl.getWords();
-        return Collections.emptySet();
+            words.addAll(crawl.getWords());
+        crawl = null;
+        System.gc();
+        return words;
     }
 }
